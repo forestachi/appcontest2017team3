@@ -1,0 +1,20 @@
+・Android Studioをダウンロードする
+https://developer.android.com/studio/index.html?hl=ja
+
+・プロジェクトを作成する
+[Start a New Android Studio project]
+
+Windows
+[File] -> [Settings]
+
+Mac
+[Android Studio] -> [Preferences]
+
+[Plugins] -> [Browse Repositories] -> [Kotlin]を選択して[Install]
+-> [Restart Android Studio]
+
+・プロジェクト(のビルドスクリプト)にKotlinの設定を追加する
+[Tools] -> [Kotlin] -> [Configure Kotlin in Project] -> [Android with Gradle]
+-> ダイアログの値は変更せず[OK] -> [Sync Now]
+
+・(プロジェクト作成時に自動生成された)JavaのソースをKotlinに変換
